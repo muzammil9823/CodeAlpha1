@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Second Task</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form id="surveyForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <br>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="feedback">Feedback:</label>
+                <br>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>How satisfied are you with our service?</label>
+                <input type="radio" id="satisfaction-very-satisfied" name="satisfaction" value="Very Satisfied" required>
+                <label>Very Satisfied</label>
+                <input type="radio" id="satisfaction-satisfied" name="satisfaction" value="Satisfied">
+                <label>Satisfied</label>
+                <input type="radio" id="satisfaction-neutral" name="satisfaction" value="Neutral">
+                <label>Neutral</label>
+                <input type="radio" id="satisfaction-unsatisfied" name="satisfaction" value="Unsatisfied">
+                <label>Unsatisfied</label>
+                <input type="radio" id="satisfaction-very-unsatisfied" name="satisfaction" value="Very Unsatisfied">
+                <label>Very Unsatisfied</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="2.js"></script>
+</body>
+</html>
